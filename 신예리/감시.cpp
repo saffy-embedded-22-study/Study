@@ -19,8 +19,8 @@ int MAP[9][9]; //MAP설정
 int N, M; //세로, 가로
 
 int ydir[4] = { -1,0,1,0 }; //상 좌 하 우
-int xdir[4] = { 0,-1,0,1 }; 
-int blind_result= 9999; //정답
+int xdir[4] = { 0,-1,0,1 };
+int blind_result = 9999; //정답
 int cctv_cnt;
 
 void check(int y, int x, int dir) {
@@ -59,10 +59,10 @@ void simul(int num) {
 
     yx now = cctv_vect[num];
 
-    int MAP_copy[9][9] = { 0 }; 
+    int MAP_copy[9][9] = { 0 };
 
     for (int dir = 0; dir < 4; dir++) { //cctv방향이 가능한 모든 경우의 수에 대해서 구해주기
-        
+
         memcpy(MAP_copy, MAP, sizeof(MAP)); // MAP 복원을 위해서 copy
 
         if (MAP[now.y][now.x] == 1) { //1번 감시카메라
@@ -89,7 +89,7 @@ void simul(int num) {
         }
 
         simul(num + 1); //다음 감시카메라로
-       
+
         memcpy(MAP, MAP_copy, sizeof(MAP_copy));
     }
 
@@ -98,7 +98,7 @@ void simul(int num) {
 int main() {
 
     ios::sync_with_stdio(false);
-    cout.tie(); cin.tie();
+    cout.tie(NULL); cin.tie(NULL);
 
     cin >> N >> M;
 
