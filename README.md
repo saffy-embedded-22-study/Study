@@ -4,13 +4,13 @@
 
 <br></br>
 
-## 이 주의 문제 (~ 3/20)
+## 이 주의 문제 (~ 3/29)
 | 제목 | 난이도 | 링크 |
 | :---: | :---: | :---: | 
-| 감시 | 하 | [문제 링크](https://www.acmicpc.net/problem/15683) |
-| 연구소3 | 하 | [문제 링크](https://www.acmicpc.net/problem/17142) |
-| 스타트 택시 | 중 | [문제 링크](https://www.acmicpc.net/problem/19238) |
-| 2048(easy) | 상(선택) | [문제 링크](https://www.acmicpc.net/problem/12100) |
+| 지역구 나누기 | 하 | [문제 링크](https://pro.mincoding.co.kr/enterprise/contest/ssafy_9/275/problem/A%ED%98%95_%EA%B8%B0%EC%B6%9C3) |
+| 마법의 물뿌리개  | 하 | [문제 링크](https://pro.mincoding.co.kr/enterprise/contest/ssafy_9/275/problem/A%ED%98%95_%EA%B8%B0%EC%B6%9C4) |
+| 머리 맞대기 | 중 | [문제 링크](https://pro.mincoding.co.kr/problem-step/7/level/108/detail/M4_04) |
+
 
 <br></br>
 
