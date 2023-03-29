@@ -11,8 +11,8 @@ struct Passenger {
 	int x;
 	int gy;
 	int gx;
-	int fromP; //목적지까지 거리 고정
-	int toP; //변화
+	int fromP; //손님에서 목적지까지 거리 :고정
+	int toP; //현재 택시 위치에서 손님까지 거리 :변화
 };
 bool cmp(Passenger left, Passenger right) {
 	if (left.toP < right.toP) return true;
@@ -35,7 +35,7 @@ vector<Passenger> v; //손님
 int done[400]; //승객 번호
 
 
-//목적지까지 거리 재는 함수 <- 벽이 있어서 플러드필로
+//손님 별로 목적지까지 거리 구하는 용 손님 넣을 때 한번씩
 int Dist(int y, int x, int gy, int gx) {
 	if (y == gy && x == gx) return 0;
 	memset(visit, 0, sizeof(visit));
@@ -59,7 +59,8 @@ int Dist(int y, int x, int gy, int gx) {
 	return -1;
 }
 
-//이거는 목적지 없이 채우는 거 -> 거리 여러개 계산하려고
+//이거는 택시 위치에서 부터 플러드필 한번
+//-> 택시에서의 거리 visit에 써짐
 void Fill(int y, int x) {
 	memset(visit, 0, sizeof(visit));
 	queue<node> q;
@@ -81,30 +82,33 @@ void Fill(int y, int x) {
 	return;
 }
 
-//손님 찾아서 이동 sort
+//손님 찾아서 이동
 int Move() {
 	int left = M;
 	while (1) {
-		Fill(Y, X);
+		Fill(Y, X); //visit에 거리 저장됨
+
 		for (int i = 0; i < M; i++) {
 			Passenger now = v[i];
 			int toNow = visit[now.y][now.x] - 1;
 
-			if (toNow < 0) return -1; //손님까지 못가는 손님
+			if (toNow < 0) return -1; //손님까지 못가는 손님이 있을 때 영업안함 (벽이 있다든가 할까봐)
 			v[i].toP = toNow;
 		}
-		sort(v.begin(), v.end(), cmp); //v 순서는 변함 주의
+
+		sort(v.begin(), v.end(), cmp); //이미 태워다 준 손님도 정렬됨
 
 		for (int i = 0; i < M; i++) {
 			Passenger now = v[i];
 			if (done[now.n] == 1) continue;
-			if (now.fromP == -1) return -1; //목적지까지 못가는 손님
+
+			if (now.fromP == -1) return -1; //목적지까지 못가는 손님 (벽이 있다든가 할까봐)
 			done[now.n] = 1;
 			left--;
 
-			if (fuel < now.toP) return -1; //손님까지 못가
+			if (fuel < now.toP) return -1; //기름없어서 손님까지 못감
 			fuel -= now.toP;
-			if (fuel < now.fromP) return -1; //도착지까지 못가
+			if (fuel < now.fromP) return -1; //기름없어서 도착지까지 못감
 
 			//도착
 			Y = now.gy;
@@ -130,7 +134,7 @@ int main() {
 	for (int i = 0; i < M; i++) {
 		int a, b, c, d;
 		cin >> a >> b >> c >> d;
-		v.push_back({ i,a - 1, b - 1, c - 1, d - 1,Dist(a - 1,b - 1,c - 1,d - 1),0 });
+		v.push_back({ i,a - 1, b - 1, c - 1, d - 1,Dist(a - 1,b - 1,c - 1,d - 1),0 }); //키우기 싫어서 이랬습니다
 	}
 	cout << Move();
 
