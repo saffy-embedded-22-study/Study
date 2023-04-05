@@ -4,27 +4,26 @@
 
 <br></br>
 
-## 이 주의 문제 (~ 4/5)
+## 이 주의 문제 (~ 4/12)
 | 제목 | 선택 | 링크 | 백준 |
 | :---: | :---: | :---: | :---: |
-| 마법사 상어와 파이어볼 |  | [문제 링크](https://www.acmicpc.net/problem/20056) | |
-| 평범한 배낭  |  | [문제 링크](https://www.acmicpc.net/problem/12865) | |
-| 도로 건설 |  | [문제 링크](https://pro.mincoding.co.kr/problem-step/7/level/106/detail/dijkstra_temp2) | https://www.acmicpc.net/problem/20046 |
-| 소재 패턴 찾기 | 선택 | [문제 링크](https://pro.mincoding.co.kr/problem-step/7/level/92/detail/G6LV43_%ED%8C%A8%ED%84%B4%EC%B0%BE%EA%B8%B0) | |
+| 마법사 상어와 파이어스톰 |  | [문제 링크](https://www.acmicpc.net/problem/20058) | |
+| 나무 재테크  |  | [문제 링크](https://www.acmicpc.net/problem/16235) | |
+| 낚시왕 |  | [문제 링크](https://www.acmicpc.net/problem/17143) | |
+| 다리 만들기 2 | 선택 | [문제 링크](https://www.acmicpc.net/problem/17472) | |
 
 
 <br></br>
 
-## 이 주의 로테이션 (~ 4/5)
+## 이 주의 로테이션 (~ 4/12)
 
-- 김대연 : 최현준, 이용은
+- 대연 : 용은, 명주
 
-- 이용은 : 김대연, 손명주
+- 명주 : 대연, 현준
 
-- 손명주 : 이용은, 신예리
+- 현준 : 명주, 예리
 
-- 신예리 : 손명주, 최현준
+- 예리 : 현준, 용은
 
-- 최현준 : 신예리, 김대연
-
+- 용은 : 예리 ,대연
 
