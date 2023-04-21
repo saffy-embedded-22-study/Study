@@ -7,8 +7,9 @@
 ## 스터디 문제
 | 날짜 | 제목 | 링크 | 풀이 |
 | :---: | :---: | :---: | :---: |
-| 04/21(금) | RGB거리 | [문제 링크](https://www.acmicpc.net/problem/1149) | 필수 |
-| 04/21(금) | RGB거리2 | [문제 링크](https://www.acmicpc.net/problem/17404) | 선택 |
+| 04/25(화) | 어드벤처 게임 | [문제 링크](https://www.acmicpc.net/problem/2310) | 필수 |
+| 04/27(목) | 거짓말 | [문제 링크](https://www.acmicpc.net/problem/1043) | 필수 |
+| 04/28(금) | 레이저 통신 | [문제 링크](https://www.acmicpc.net/problem/6087) | 필수 |
 
 
 <br></br>
@@ -24,3 +25,9 @@
 - 현준 : 명주, 용은
 
 - 용은 : 현준, 예리
+
+## 지난 문제들
+| 날짜 | 제목 | 링크 | 풀이 |
+| :---: | :---: | :---: | :---: |
+| 04/21(금) | RGB거리 | [문제 링크](https://www.acmicpc.net/problem/1149) | 필수 |
+| 04/21(금) | RGB거리2 | [문제 링크](https://www.acmicpc.net/problem/17404) | 선택 |
