@@ -7,29 +7,34 @@
 ## 이 주의 문제
 | 날짜 | 제목 | 링크 | 풀이 |
 | :---: | :---: | :---: | :---: |
-| 04/25(화) | 어드벤처 게임 | [문제 링크](https://www.acmicpc.net/problem/2310) | 필수 |
-| 04/27(목) | 거짓말 | [문제 링크](https://www.acmicpc.net/problem/1043) | 필수 |
-| 04/28(금) | 레이저 통신 | [문제 링크](https://www.acmicpc.net/problem/6087) | 필수 |
+| 05/01(월) | 상어 초등학교 | [문제 링크](https://www.acmicpc.net/problem/21608) | 필수 |
+| 05/03(수) | 미로 만들기 | [문제 링크](https://www.acmicpc.net/problem/2665) | 필수 |
+| 05/04(목) | 욕심쟁이 판다 | [문제 링크](https://www.acmicpc.net/problem/1937) | 필수 |
+| 05/04(목) | 히히 못가 | [문제 링크](https://www.acmicpc.net/problem/24515) | 선택 |
 
 
 <br></br>
 
-## 이 주의 로테이션 (~ 4/28)
+## 이 주의 로테이션 (~ 5/4)
 
-- 예리 : 용은, 대연
+- 예리 : 대연,현준
 
-- 대연 : 예리, 명주
+- 대연 : 용은,예리
 
-- 명주 : 대연, 현준
+- 명주 : 현준,용은
 
-- 현준 : 명주, 용은
+- 현준 : 예리,명주
 
-- 용은 : 현준, 예리
+- 용은 : 명주,대연
 
 
 ## 지난 문제들
 | 날짜 | 제목 | 링크 | 풀이 |
 | :---: | :---: | :---: | :---: |
+
+| 04/28(금) | 레이저 통신 | [문제 링크](https://www.acmicpc.net/problem/6087) | 필수 |
+| 04/27(목) | 거짓말 | [문제 링크](https://www.acmicpc.net/problem/1043) | 필수 |
+| 04/25(화) | 어드벤처 게임 | [문제 링크](https://www.acmicpc.net/problem/2310) | 필수 |
 | 04/21(금) | RGB거리 | [문제 링크](https://www.acmicpc.net/problem/1149) | 필수 |
 | 04/21(금) | RGB거리2 | [문제 링크](https://www.acmicpc.net/problem/17404) | 선택 |
 | 04/19(수) | 마법사 상어와 파이어스톰 | [문제 링크](https://www.acmicpc.net/problem/20058) | 필수 |
