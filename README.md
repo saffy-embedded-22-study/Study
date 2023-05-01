@@ -7,7 +7,7 @@
 ## 이 주의 문제
 | 날짜 | 제목 | 링크 | 풀이 |
 | :---: | :---: | :---: | :---: |
-| 05/01(월) | 상어 초등학교 | [문제 링크](https://www.acmicpc.net/problem/21608) | 필수 |
+| 05/02(화) | 상어 초등학교 | [문제 링크](https://www.acmicpc.net/problem/21608) | 필수 |
 | 05/03(수) | 미로 만들기 | [문제 링크](https://www.acmicpc.net/problem/2665) | 필수 |
 | 05/04(목) | 욕심쟁이 판다 | [문제 링크](https://www.acmicpc.net/problem/1937) | 필수 |
 | 05/04(목) | 히히 못가 | [문제 링크](https://www.acmicpc.net/problem/24515) | 선택 |
