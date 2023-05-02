@@ -16,12 +16,12 @@ int minCost[MAX_N][MAX_N];
 
 
 void init();
-int Dijstra();
+int Dijkstra();
 
 
 int main() {
 	init();
-	cout <<Dijstra();
+	cout <<Dijkstra();
 	return 0;
 }
 
@@ -33,7 +33,7 @@ void init() {
 	for (int y = 0; y < N; y++) cin >> MAP[y];
 }
 
-int Dijstra() {
+int Dijkstra() {
 	priority_queue<Node>pq;
 	pq.push({ 0,0,0 });
 
