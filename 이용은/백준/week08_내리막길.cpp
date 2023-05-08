@@ -4,14 +4,12 @@ using namespace std;
 int N, M;
 int Map[MAX_N][MAX_N];
 int dp[MAX_N][MAX_N];
-int visited[MAX_N][MAX_N];
 
 void init();
 int dfs(int, int);
 
 int main() {
 	init();
-	visited[0][0] = 1;
 	cout << dfs(0, 0);
 	return 0;
 }
@@ -47,11 +45,7 @@ int dfs(int nowY, int nowX) {
 		int nx = nowX + xdir[i];
 		if (ny >= N || ny < 0 || nx >= M || nx < 0) continue;
 		if (Map[ny][nx] < Map[nowY][nowX]) {
-			if (visited[ny][nx] == 1) continue;
-			visited[ny][nx] = 1;
 			temp +=dfs(ny, nx);
-			visited[ny][nx] = 0;
-			
 		}
 	}
 	return dp[nowY][nowX] = temp;
