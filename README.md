@@ -12,6 +12,9 @@
 | 05/16(화) | 저울 | [문제 링크](https://www.acmicpc.net/problem/2437) | 필수 |
 | 05/17(수) | 도토리 숨기기 | [문제 링크](https://www.acmicpc.net/problem/15732) | 필수 |
 | 05/19(금) | 외판원 순회 | [문제 링크](https://www.acmicpc.net/problem/2098) | 필수 |
+| 05/23(화) | 말이 되고픈 원숭이 | [문제 링크](https://www.acmicpc.net/problem/1600) | 필수 |
+| 05/24(수) | 트리의 순회 | [문제 링크](https://www.acmicpc.net/problem/2263) | 필수 |
+| 05/26(금) | 백조의 호수 | [문제 링크](https://www.acmicpc.net/problem/3197) | 필수 |
 
 <br></br>
 
